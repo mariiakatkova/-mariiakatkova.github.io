@@ -7,7 +7,7 @@ var typewriter = new Typewriter(app, {
 
 typewriter
   .pauseFor(1000)
-  .typeString('I am a PR/GR specialist the Ukraine.') //Add your own tagline
+  .typeString('I am a PR/GR specialist from the Ukraine.') //Add your own tagline
   .pauseFor(3000)
   .start()
 
