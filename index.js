@@ -17,16 +17,16 @@ var granimInstance = new Granim({
     direction: 'top-bottom',
     isPausedWhenNotInView: true,
     image : {
-        source: 'assets/snow.jpg', //change image for intro section if desired
+        source: 'assets/wheat_field.jpg', //change image for intro section if desired
         blendingMode: 'multiply',
     },
     states : {
         "default-state": {
             gradients: [
-                ['#29323c', '#485563'],
-                ['#FF6B6B', '#556270'],
-                ['#80d3fe', '#7ea0c4'],
-                ['#f0ab51', '#eceba3']
+                ['#4a5a6b', '#6a7a8b'],
+                ['#FF8888', '#758a9c'],
+                ['#9ae1ff', '#9ec2d8'],
+                ['#f3c272', '#f3f4c3']
             ],
             transitionSpeed: 8000
         }
